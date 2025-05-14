@@ -1,2 +1,12 @@
-Pretty simple just download all the libraries in the file and should work with you.
-If you have a low-end device deepface won't work with you.
+# 😊 Smile Detector - Offline Edition
+
+A Python-based smile detection app that runs offline with a simple GUI and emoji feedback.
+
+## Features
+- Detects smiles using a webcam.
+- Displays a sad 😔 or happy 😄 emoji depending on facial expression.
+- Saves pictures of smiles to a local folder.
+- Lightweight — works on low-end laptops.
+
+## How It Works
+The app uses MediaPipe to detect facial landmarks and identify smiles or tongue/teeth visibility.
